@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>button.svg</file>
+    </qresource>
+</RCC>

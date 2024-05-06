@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>baobao.JPG</file>
+        <file>downa.png</file>
+        <file>lefta.png</file>
+        <file>righta.png</file>
+        <file>upa.png</file>
+    </qresource>
+</RCC>

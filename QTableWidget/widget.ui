@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>810</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>750</width>
+     <height>410</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_add_row">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>460</y>
+     <width>110</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>增加行</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_add_col">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>460</y>
+     <width>110</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>增加列</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_del_row">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>530</y>
+     <width>110</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>删除行</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_del_col">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>530</y>
+     <width>110</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>删除列</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_col_name">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>475</y>
+     <width>110</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
